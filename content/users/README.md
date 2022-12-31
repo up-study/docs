@@ -1,0 +1,4 @@
+ - [Model](https://github.com/up-study/docs/blob/master/content/users/model.md)
+ - [Registration](https://github.com/up-study/docs/blob/master/content/users/registration.md)
+ - [Authentication](https://github.com/up-study/docs/blob/master/content/users/authentication.md)
+ - [Password](https://github.com/up-study/docs/blob/master/content/users/password.md)

@@ -10,7 +10,7 @@
 получить json web token при аутентификации через соц сеть (github, gmail, telegram)
 
 # 4. OAuth and Connections
-- telegram (button to bind telegram account -> link to telegram bot which going to bind user)
+- telegram (кнопка для связки телеграм аккаунта -> ссылка на телеграм бота, который привязывает пользователя к системе)
 - instagram
 - github
 - linkedin

@@ -1,8 +1,10 @@
 # 1. Change Password
-require `old_password`, `new_password`, `repeated_password`
+требует старый пароль, новый пароль, повторить новый пароль, быть аутентифицированным
+
 # 2. Reset Password
-require `email`, would be sent a message to this email with the link to set a new password, you need to fill `repeated_password` field as well
+требует `email`, будет отправлено сообщение со ссылкой для установки нового пароля, запрашивает новый пароль и повторить новый пароль
+
 # 3. Password validators
- - at least 8 chars
- - not only numeric
- - should match to email/username/e.t.c
+ - как минимум 8 символов
+ - не только числа
+ - не должны совпадать с контактными данными

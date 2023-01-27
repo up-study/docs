@@ -1,11 +1,17 @@
-# 1. На платформе
-Два обязательных поля: `email`, `username` отправляется сообщение на email с временным сгенерированным паролем. пользователь создается в бд как неактивный, ссылка на создание пароля (`password`, `repeated_password`), после которого пользователь становится активным и попадает на страницу редактирования профиля
+# 1. Via Up-Study
+Required fields: `email`, `username`, `password`, `repeated_password` <br>
+message with the confirmation link would be sent to your email <br>
+until you confirm the email the user is not active
 
-# 2. Приглашение через панель администрации
-Все тоже самое, что и в пункте 1, но пользователь получает права администратора
+# 2. Invite User via admin panel
+The same as [1. Via Up-Study](#1-via-up-study), but user will get administration's permissions
 
-# 3. Приглашение от другого пользователя по ссылке
-создается ссылка, связанная с пользователем который приглашает. Оба пользователя получают бенефиты, рассмотрим это позже. Ссылку нельзя менять, можно создать только одну ссылку, если ее не существует.
+# 3. Invite User via invitation link
+The link would be created and bind to the user who invites.
+Both of users (inviting and invited) should get some benefits
+Link can be generated, deleted, regenerated
+Link is unique and one per user profile
 
-# 4. Приглашение от другого пользователя по email
-Приглашая пользователя по email, происходит тоже, что в 3 только ссылка отправляется по email, ссылка та же, что получаешь в пункте 3
+# 4. Send invitation via email
+Inviting user via email you're doing the same thing as if you just [send the link](#3-invite-user-via-invitation-link), 
+but by email with a designed invitation template

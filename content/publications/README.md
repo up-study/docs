@@ -1,1 +1,1 @@
-# Система для публикаций в профиле пользователя / курсов
+# Publications for profiles and courses

@@ -1,1 +1,1 @@
-# Система подписок на курсы
+# Course Subscriptions

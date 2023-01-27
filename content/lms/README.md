@@ -1,1 +1,1 @@
-# Система Управления Обучением
+# Learning Management System

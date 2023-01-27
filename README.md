@@ -1,32 +1,37 @@
 # Up-Study
 
-# Оглавление
-1. [Цель проекта](https://github.com/up-study/docs#1-%D1%86%D0%B5%D0%BB%D1%8C-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
-2. [Описание системы](https://github.com/up-study/docs#2-%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B)
-3. [Технологии](https://github.com/up-study/docs#3-%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%B0%D0%B3%D0%B0%D0%B5%D0%BC%D1%8B%D0%B9-%D1%81%D1%82%D1%8D%D0%BA-%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9)
-4. [Требования к дизайну](https://github.com/up-study/docs#4-%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D1%83)
+# Content
+1. [Description](#1-description)
+2. [Functional Blocks](#2-functional-blocks)
+3. [Tech Stack](#3-tech-stack)
+4. [Requirements to the UX/UI](#4-requirements-to-the-uxui)
+5. [Contributing](CONTRIBUTING.md)
 
-# 1. Цель проекта
-Цель проекта – разработать систему образования с фриланс биржей для авторов курсов, учителей и учеников. Автор курсов, имеет доступ к конструктору курса, Создание и управление платными подписками на курсы, может нанимать учителей, при этом имеет все права учителя. Ученик оплачивая подписку попадает на платформу обучения в группу курса, подписку которого приобрел.
+# 1. Description
+The goal of the project is to develop an education system with a freelance exchange for course authors, teachers and students. 
+The author of courses, has access to the course constructor, creates and manages paid subscriptions 
+to courses, can hire teachers, and has all the permissions of a teacher. 
+The student, paying for the subscription, gets on the learning platform in the group of the course, 
+the subscription of which he purchased.
 
-# 2. Описание системы
-Система состоит из следующих основных функциональных блоков:
+# 2. Functional Blocks
+The system consists of the following main functional blocks:
 
-1. [Пользователи](https://github.com/up-study/docs/blob/master/content/users/)
-2. [Рекрутмент](https://github.com/up-study/docs/blob/master/content/recruitment/)
-3. [Система Управления Обучением](https://github.com/up-study/docs/blob/master/content/lms/)
-4. [Telegram](https://github.com/up-study/docs/blob/master/content/telegram/)
-5. [Мессенджер](https://github.com/up-study/docs/blob/master/content/messenger/)
-6. [Уведомления](https://github.com/up-study/docs/blob/master/content/notifications/)
-7. [Подписки](https://github.com/up-study/docs/blob/master/content/subscriptions/)
-8. [Платежи](https://github.com/up-study/docs/blob/master/content/payments/)
-9. [Скидки](https://github.com/up-study/docs/blob/master/content/discounts/)
-10. [Публикации](https://github.com/up-study/docs/blob/master/content/publications/)
-11. [Дорожные карты](https://github.com/up-study/docs/blob/master/content/roadmaps/)
-12. [Календарь](https://github.com/up-study/docs/blob/master/content/calendar/)
+1. [Users](content/users/)
+2. [Recruitment](content/recruitment/)
+3. [Learning Management System](content/lms/)
+4. [Telegram](content/telegram/)
+5. [Messenger](content/messenger/)
+6. [Notifications](content/notifications/)
+7. [Subscriptions](content/subscriptions/)
+8. [Payments](content/payments/)
+9. [Discounts](content/discounts/)
+10. [Publications](content/publications/)
+11. [Roadmaps](content/roadmaps/)
+12. [Calendar](content/calendar/)
 
-# 3. Предлагаемый стэк технологий
-## Бэкенд
+# 3. Tech Stack
+## Backend
 - Python 3.11 ≥
 - Django 4.1 ≥
 - Django REST Framework
@@ -36,11 +41,12 @@
 - Celery
 - Aiogram
 
-## Фронтенд
+## Frontend
 - Typescript
 - React
 - Tailwind
 
-# 4. Требования к дизайну
-Немного скругленные компоненты (но не круглые). Темный фон. Боковое раскрывающеесе меню справа на всех страницах.
-Страница регистрации и авторизации - всплывающий компонент внутри другой страницы.
+# 4. Requirements to the UX/UI
+
+Slightly rounded components. Light and dark background. 
+Side drop-down menu on the right side of all pages.
